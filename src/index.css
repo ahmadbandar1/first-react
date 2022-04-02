@@ -1,13 +1,170 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --maneColor : rgb( 44, 62, 80);
+  --secondColor : #1abc9c;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.bg-color{
+  background-color: var(--maneColor);
+}
+
+.navbar .navbar-nav .nav-item:hover a{
+  color :var(--secondColor);
+}
+
+
+.header{
+  background-color: var(--secondColor);
+}
+
+.img{
+  width: 250px;
+  height: 250px;
+}
+.w-60{
+  width: 60%;
+  margin: auto;
+}
+.fs{
+  font-size: 50px;
+  color: #fff;
+}
+.color{
+  color: #fff;
+}
+.ahmad{
+  width: 120px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* end header */
+
+.portfolio-header{
+ 
+  color: var(--maneColor);
+  text-align: center;
+  margin-top: 60px;
+  font-size: 60px;
+}
+
+.ahmad1{
+  width: 120px;
+  height: 4px;
+  border-radius: 10px;
+  background-color: var(--maneColor);
+}
+
+.portfolio-des .fa-star{
+  color: var(--maneColor);
+}
+
+.portfolio .overlay .overlay-item{
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--secondColor);
+  align-items: center;
+  justify-content: center;
+  opacity:0 ;
+  top:0;
+  color: #fff;
+  font-size: 60px;
+}
+
+.portfolio .overlay .overlay-item:hover{
+  opacity: 1;
+}
+
+/* end portfolio */
+
+.about-section{
+  background-color: var(--secondColor);
+}
+
+.about-header{
+  color: #fff;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 60px;
+}
+
+.about .fa-star{
+  color: #fff;
+}
+
+.para{
+  color: #fff;
+  font-size: 20px;
+ 
+}
+.co{
+  color: #fff;
+  padding: 10px;
+  /* width: 25%; */
+  margin: auto;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: var(--secondColor);
+  
+  
+}
+
+
+.about-section .co:hover{
+  background-color: #fff;
+  color: #000;
+ 
+ 
+}
+
+/* ebd about */
+.formContact .saeed{
+  color: #fff;
+  background-color: var(--secondColor);
+  border-color: #1abc9c;
+}
+
+/* start footer */
+.footer{
+  background-color: var(--maneColor);
+}
+.icon i{
+ 
+  padding: 13px;
+  border:1px solid #fff ;
+  border-radius: 50%;
+  margin: 6px;
+  color: #fff;
+  transition: all 1s;
+}
+
+.icon i:hover{
+  color: #000;
+  background-color: #fff;
+}
+
+.alink{
+  color: var(--secondColor);
+}
+.footer .alink:hover{
+  color:var(--secondColor)
+  
+  
+}
+
+.footer1{
+  background-color: #1a252f;
+}
+
+.form-input{
+  border: none!important;
+  border-bottom: 1px solid #000 !important;
+  border-radius: 0!important;
+}
+
+.modal-portfolio{
+  width: 100% !important;
 }
